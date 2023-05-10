@@ -1,16 +1,42 @@
 # bikeman
 
-A new Flutter project.
+Flutter Package Deliver application
 
-## Getting Started
+(May present errors..[.in process of Development])
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+### Requirements
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Change Ip
+  * Lib/Services/url.dart
+  
+### To enable Google Map SDK for each platform.
+  * Go to [Google Developers Console](https://console.cloud.google.com)
+  * To enable Google Maps for Android and iOS.
+  * Page API KEY -> lib/Services/GoogleServices
+  * Page API KEY -> Android/app/src/main/AndroidManifest.xml
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+#### MAPBOX API KEY
+ * Go to [Mapbox](https://www.mapbox.com/)
+ * Page API KEY -> lib/Controller/MapBoxController
+
+#### PUSH NOTIFICATIONS - Cloud Messaging | Firebase
+ * Page Server Key => lib/Services/PushNotification.dart
+ * Page google-services.json => Android/App/
+ * Go Firebase
+ * Project settings
+ * Cloud Messaging
+ * Server key
+
+### Flutter
+ * Flutter Bloc 
+ * Socket to client
+ * Google Map
+ * MapBox
+ * Geolocator
+ * Push notifications
+
+### Node js
+ * (to include backend code for this project)
+
+ 
