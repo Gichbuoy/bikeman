@@ -1,8 +1,8 @@
-# bikeman
+# Bikeman
 
 Flutter Package Deliver application
 
-(May present errors..[.in process of Development])
+(May present errors...[in process of Development])
 
 
 ### Requirements
